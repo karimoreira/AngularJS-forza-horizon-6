@@ -10,8 +10,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-
-  
     <header class="header">
         <div class="container header__content">
             <a href="#" class="header__logo">FORZA <span class="text-accent">HORIZON 6</span></a>
@@ -28,23 +26,35 @@
     <main>
         <section class="hero">
             <div class="hero__video-container">
-                <!-- Em produção, substitua o src por um loop de vídeo .mp4 otimizado do trailer -->
-                <div class="hero__video-placeholder"></div> 
+                <div class="hero__video-placeholder"></div>
             </div>
             <div class="hero__overlay"></div>
             
             <div class="container hero__content">
-                <span class="hero__tag">Disponível Agora</span>
+                <span class="hero__tag">Horizon Festival</span>
                 <h1 class="hero__title">A EVOLUÇÃO DO <br>MUNDO ABERTO</h1>
                 <p class="hero__subtitle">Sinta a velocidade, domine o clima extremo e explore cenários hiper-realistas na experiência automotiva definitiva.</p>
                 <div class="hero__actions">
                     <a href="#teaser" class="btn btn--primary">Assista ao Teaser</a>
                     <a href="#galeria" class="btn btn--secondary">Ver Capturas</a>
                 </div>
+                <div class="hero__stats" aria-label="Destaques do jogo">
+                    <div class="stat-card">
+                        <span class="stat-card__value">4K</span>
+                        <span class="stat-card__label">Detalhe visual</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-card__value">Clima</span>
+                        <span class="stat-card__label">Mudanças dinâmicas</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-card__value">Velocidade</span>
+                        <span class="stat-card__label">Festival em alta rotação</span>
+                    </div>
+                </div>
             </div>
         </section>
 
-        
         <section id="teaser" class="teaser section-padding">
             <div class="container teaser__grid">
                 <div class="teaser__info">
@@ -54,7 +64,6 @@
                     </p>
                 </div>
                 <div class="teaser__media">
-                    <!-- Placeholder para o frame principal do jogo -->
                     <div class="media-frame"></div>
                 </div>
             </div>
